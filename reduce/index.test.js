@@ -4,7 +4,7 @@ const reduce = require('./');
 
 test('#  sumNumbers: ', t => {
   const input  = [45, 4, -10, 140, 11, 250];
-  const result = 420;
+  const result = 440;
   const actual = reduce.sumNumbers(input);
   t.is(actual, result);
 });

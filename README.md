@@ -266,3 +266,11 @@ users.reduce(function (usersObj, user) {
 ```
 
 Notice the empty object as the second argument in reduce, as well as the fact that we're constantly returning our `usersObj` on each iteration.
+
+
+
+
+<!-- function cleanQuotes(str) {
+  return str.replace(/^['"]|['"]$/g, "``")
+}
+let badField = '"info@\'hello.com' -->
